@@ -1,0 +1,68 @@
+body{
+    text-align:center;
+    font-family:Helvetica;
+    background-image:url("C:/Users/ACER/Desktop/Portfolio/Web Dev/Survey Form/images/mercedes.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+#title{
+    font-size:45px;
+}
+#description{
+    font-size:20px;
+}
+
+#body{
+    width:600px;
+    padding:30px;
+    margin:auto;
+    border-radius:10px;
+    text-align:center;
+    background-color:rgb(17, 17, 16);
+    opacity:0.8;
+    font-size:20px;
+    color:white;
+}
+#name{
+    width:400px;
+    padding:15px;
+    border-radius:10px;
+}
+
+#email{
+    width:400px;
+    padding:15px;
+    border-radius:10px;
+}
+
+#number{
+    width:400px;
+    padding:15px;
+    border-radius:10px;
+}
+
+#dropdown{
+    width:400px;
+    padding:15px;
+    border-radius:10px;
+}
+
+#comment{
+    width:400px;
+    height:100px;
+}
+
+#Submit{
+    width:320px;
+    padding:20px;
+    font-size:32px;
+    border-radius:10px;
+    border:none;
+    margin-top:3%;
+    color:black;
+    background-color:rgb(187, 123, 3);
+
+
+}

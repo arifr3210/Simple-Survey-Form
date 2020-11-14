@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/survey.css">
+    </head>
+     <body>
+    <main id="main">
+
+        <h1 id="title">Luxury Car Survey Form</h1>
+
+        <p id="description"><i>Thank you for taking the time to help us improve</i></p>
+
+        <div id="body">
+
+        <form id="survey-form"></form>
+            
+             <label id="name-label" for="name">
+            <p>Name:</p>
+        
+             </label>
+
+            <input id="name" type="text" placeholder="Enter your name here" required>
+            
+             <label id="email-label" for="email">
+
+            <p>E-mail:</p>
+             
+             </label>
+            
+            <input id="email" type="text" placeholder="Enter your e-mail here" required>
+
+            <p>Age (Optional)</p>
+
+            <input id="number" type="number" placeholder="Enter your age here" min="18" max="99" required>
+            
+            <p>Which type of car suits your taste the most?</p>
+
+                <select id="dropdown">
+
+                <option value="SUV">Sports Utility Vehicle</option>
+                <option value="Sedan">Sedan</option>
+                <option value="Sports Car">Sports Car</option>
+                <option value="Hatchback">Hatchback</option>
+                <option value="Convertible">Convertible</option>
+
+            </option>
+
+                </select>
+
+            <p>Which brand of luxury car do you like the most?</p>
+                
+            <input type="radio" name="brand" value="1">Ferrari</input>
+            <br>
+            <input type="radio" name="brand" value="2">Maseratti</input>
+            <br>
+            <input type="radio" name="brand" value="3">BMW</input>
+            <br>
+            <input type="radio" name="brand" value="4">Porsche</input>
+            <br>
+            <input type="radio" name="brand" value="5">Koenigsegg</input>
+            <br>
+            <input type="radio" name="brand" value="6">Mercedes</input>
+            <br>
+            <input type="radio" name="brand" value="7">Lamborghini</input>
+            
+
+            <p>What kind of additional features would you like your luxury car to have?</p>
+            
+            <input type="checkbox" name="features" value="1">Bluetooth Audio</input>
+            <br>
+            <input type="checkbox" name="features" value="1">Starlight Roof</input>
+            <br>
+            <input type="checkbox" name="features" value="1">Leather Air Vents</input>
+            <br>
+            <input type="checkbox" name="features" value="1">Infotainment Pack</input>
+            <br>
+            <input type="checkbox" name="features" value="1">Special Interior Trim</input>
+            <br>
+            <input type="checkbox" name="features" value="1">Mechanical Clock</input>
+            <br>
+
+            <textarea id="Comment" rows="4" cols="40">Any comments or suggestions?</textarea>
+            <br>
+            <input id="Submit" type="Submit" value="Submit">
+        
+        </form>
+
+        </div>
+
+        </main>
+
+     </body>
